@@ -7,7 +7,7 @@ useradd -m -p Str0ngPassw0rd admin
 cat <<EOT >> /etc/sudoers
 
 
-# TriNimbus Admin (Non-LDAP)
+# Admin User
 admin	ALL=(ALL)	ALL
 
 EOT
