@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create the 'admin' user
-useradd -m -p sa4ezMHhq2mW2 admin
+useradd -m -p Str0ngPassw0rd admin
 
 # Add the 'admin' user to sudoers
 cat <<EOT >> /etc/sudoers
